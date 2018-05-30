@@ -36,9 +36,7 @@
     ]
   },
   "scripts": {
-    "test": "npm test npmtest.js",
-    "prepack": "gulp prepublish",
-    "postpack": "gulp postpublish"
+    "test": "npm test npmtest.js"
   },
   "author": {
     "name": "Jean-Marc Viglino",
