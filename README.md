@@ -41,7 +41,12 @@ animations
 
 ## using ol-ext in a web page
 
-* Just download the [scripts](dist) in the dist directory of the project and insert the .js and .css in your page.
+* For use in a web page install the npm [openlayers-ext package](https://www.npmjs.com/package/openlayers-ext):
+````
+npm install openlayers-ext
+````
+The library will be avaliable in the `node_modules/openlayers-ext/dist` directory. You can find individual files in the `node_modules/openlayers-ext/lib` directory.
+* You can download the [scripts](dist) of the ./dist directory of the repository in your project and insert the .js and .css in your page.
 * If you just want to add a `<script>` tag to test things out, you can link directly to the builds from the github rawgit (not recommended in production).
 
 ````html
@@ -57,15 +62,14 @@ animations
 <script type="text/javascript" src="https://cdn.rawgit.com/Viglino/ol-ext/master/dist/ol-ext.min.js"></script>
 ````
 
-
 ## using ol-ext in a webpack
 
-* Use npm [ol-ext package](https://www.npmjs.com/package/ol-ext) and link to the node_modules directory:
+* For use with webpack, Rollup, Browserify, or other module bundlers, install the npm [ol-ext package](https://www.npmjs.com/package/ol-ext) and link to the node_modules directory:
 ````
 npm install ol-ext
 ````
 
-Visit the [this repository](https://github.com/darkscript/ol-ol-ext-webpack-example) for a good example of working with ol-ext npm version and bundler (webpack)
+* Check out the [darkscript/ol-ol-ext-webpack-example repo](https://github.com/darkscript/ol-ol-ext-webpack-example) for a good example of working with ol-ext npm version and bundler (webpack)
  
 ## Documentation
 
